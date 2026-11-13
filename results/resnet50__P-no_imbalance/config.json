@@ -1,0 +1,22 @@
+{
+  "name": "resnet50__P-no_imbalance",
+  "backbone": "resnet50",
+  "recipe": "P",
+  "aug": "A",
+  "sampler": false,
+  "class_weighted_loss": false,
+  "label_smoothing": 0.0,
+  "optimizer": "adam",
+  "lr": 0.001,
+  "weight_decay": 1e-05,
+  "scheduler": "onecycle",
+  "epochs": 25,
+  "finetune": "partial",
+  "head": "mlp",
+  "batch_size": 32,
+  "img_size": 224,
+  "select_metric": "val_macro_f1",
+  "pretrained": true,
+  "split": "cv_splits",
+  "notes": ""
+}

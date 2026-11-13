@@ -1,0 +1,63 @@
+{
+  "title": "Peanut leaf disease classification with transfer learning under leakage-controlled cross-validation: code, data splits and results",
+  "upload_type": "software",
+  "description": "<p>Code (Google Colab notebooks), cross-validation split files, duplicate-audit results, per-image predictions, tables and figures for the article \"Deep learning-based peanut leaf disease classification using transfer learning under leakage-controlled cross-validation\" (Scientific Reports, under review).</p><p>Four ImageNet-pretrained backbones (ResNet-50, EfficientNet-B0, EfficientNet-B4, ConvNeXt-Base) are trained with two training recipes on a public dataset of 1,720 peanut leaf images (five classes) and evaluated with stratified group five-fold cross-validation, in which near-duplicate images are kept within one fold. Includes an ablation study, a naive-split leakage experiment, robustness tests and Grad-CAM analyses. Trained model weights: https://huggingface.co/Kashif-Mahmood007/peanut-leaf-disease-classifiers. Dataset: https://doi.org/10.17632/x6x5jkk873.2.</p>",
+  "creators": [
+    {
+      "name": "Mahmood, Kashif",
+      "affiliation": "Department of Software Engineering, University of Sargodha, Sargodha, Pakistan"
+    },
+    {
+      "name": "Abbas, Qaisar",
+      "affiliation": "Faculty of Computer and Information Systems, Islamic University of Madinah, Madinah, Saudi Arabia"
+    },
+    {
+      "name": "Habiba, Ume",
+      "affiliation": "Department of Software Engineering, University of Sargodha, Sargodha, Pakistan"
+    },
+    {
+      "name": "Ilyas, Mahwish",
+      "affiliation": "Department of Computer Science, University of Rasul, Mandi Bahauddin, Pakistan"
+    },
+    {
+      "name": "Alghamdi, Turki",
+      "affiliation": "Faculty of Computer and Information Systems, Islamic University of Madinah, Madinah, Saudi Arabia"
+    },
+    {
+      "name": "Almoamari, Hani",
+      "affiliation": "Faculty of Computer and Information Systems, Islamic University of Madinah, Madinah, Saudi Arabia"
+    },
+    {
+      "name": "Ramzan, Muhammad",
+      "affiliation": "Department of Software Engineering, University of Sargodha, Sargodha, Pakistan"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "peanut",
+    "groundnut",
+    "plant disease",
+    "leaf disease classification",
+    "deep learning",
+    "transfer learning",
+    "cross-validation",
+    "data leakage",
+    "near-duplicate images"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.17632/x6x5jkk873.2",
+      "relation": "references",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://huggingface.co/Kashif-Mahmood007/peanut-leaf-disease-classifiers",
+      "relation": "isSupplementedBy",
+      "resource_type": "other",
+      "scheme": "url"
+    }
+  ],
+  "version": "1.0.0"
+}

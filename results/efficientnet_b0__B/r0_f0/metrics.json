@@ -1,0 +1,133 @@
+{
+  "accuracy": 0.9562841530054644,
+  "n_correct": 350,
+  "n": 366,
+  "balanced_accuracy": 0.9037851037851038,
+  "macro_precision": 0.9571815857297844,
+  "macro_recall": 0.9037851037851038,
+  "macro_f1": 0.9265356982652329,
+  "weighted_f1": 0.95514910257606,
+  "cohen_kappa": 0.9386292181932508,
+  "per_class": {
+    "Alternaria leaf spot": {
+      "precision": 0.9139784946236559,
+      "recall": 1.0,
+      "f1": 0.9550561797752809,
+      "support": 85
+    },
+    "Healthy": {
+      "precision": 0.9668874172185431,
+      "recall": 1.0,
+      "f1": 0.9831649831649831,
+      "support": 146
+    },
+    "Leaf spot (early and late)": {
+      "precision": 0.9764705882352941,
+      "recall": 0.9120879120879121,
+      "f1": 0.9431818181818182,
+      "support": 91
+    },
+    "Rosette": {
+      "precision": 0.9285714285714286,
+      "recall": 0.7222222222222222,
+      "f1": 0.8125,
+      "support": 18
+    },
+    "Rust": {
+      "precision": 1.0,
+      "recall": 0.8846153846153846,
+      "f1": 0.9387755102040817,
+      "support": 26
+    }
+  },
+  "confusion_matrix": [
+    [
+      85,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      146,
+      0,
+      0,
+      0
+    ],
+    [
+      4,
+      4,
+      83,
+      0,
+      0
+    ],
+    [
+      3,
+      1,
+      1,
+      13,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      1,
+      23
+    ]
+  ],
+  "macro_auc_ovr": 0.9969281942374286,
+  "config": {
+    "name": "efficientnet_b0__B",
+    "backbone": "efficientnet_b0",
+    "recipe": "B",
+    "aug": "B",
+    "sampler": false,
+    "class_weighted_loss": false,
+    "label_smoothing": 0.2,
+    "optimizer": "adamw",
+    "lr": 1e-05,
+    "weight_decay": 0.0001,
+    "scheduler": "cosine_wr",
+    "epochs": 25,
+    "finetune": "full",
+    "head": "linear",
+    "batch_size": 32,
+    "img_size": 224,
+    "select_metric": "val_macro_f1",
+    "pretrained": true,
+    "split": "cv_splits",
+    "notes": ""
+  },
+  "repeat": 0,
+  "fold": 0,
+  "seed": 0,
+  "best_epoch": 23,
+  "best_val_macro_f1": 0.9809415768576291,
+  "best_val_loss": 0.49678809302193777,
+  "train_minutes": 4.5355323870976765,
+  "n_train": 1200,
+  "n_val": 154,
+  "n_test": 366,
+  "gpu": "Tesla T4",
+  "split_meta": {
+    "phash_thr": 12,
+    "dhash_thr": 16,
+    "emb_model": "dinov2_vits14",
+    "emb_q": 0.999,
+    "emb_thr": 0.9694550037384033,
+    "combo": [
+      0.95,
+      20,
+      20
+    ],
+    "k": 5,
+    "repeats": 1,
+    "inner_val_folds": 8,
+    "seed": 42,
+    "n_groups": 1112
+  },
+  "n_trainable_params": 4013953,
+  "n_total_params": 4013953
+}

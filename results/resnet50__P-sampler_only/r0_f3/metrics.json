@@ -1,0 +1,145 @@
+{
+  "accuracy": 0.9463276836158192,
+  "n_correct": 335,
+  "n": 354,
+  "balanced_accuracy": 0.9499141697877652,
+  "macro_precision": 0.9502135263110872,
+  "macro_recall": 0.9499141697877652,
+  "macro_f1": 0.9483957792820272,
+  "weighted_f1": 0.9460119542966079,
+  "cohen_kappa": 0.9271975494387739,
+  "per_class": {
+    "Alternaria leaf spot": {
+      "precision": 0.975609756097561,
+      "recall": 0.898876404494382,
+      "f1": 0.935672514619883,
+      "support": 89
+    },
+    "Healthy": {
+      "precision": 0.9230769230769231,
+      "recall": 1.0,
+      "f1": 0.96,
+      "support": 120
+    },
+    "Leaf spot (early and late)": {
+      "precision": 0.9666666666666667,
+      "recall": 0.90625,
+      "f1": 0.9354838709677419,
+      "support": 96
+    },
+    "Rosette": {
+      "precision": 1.0,
+      "recall": 0.9444444444444444,
+      "f1": 0.9714285714285714,
+      "support": 18
+    },
+    "Rust": {
+      "precision": 0.8857142857142857,
+      "recall": 1.0,
+      "f1": 0.9393939393939394,
+      "support": 31
+    }
+  },
+  "confusion_matrix": [
+    [
+      80,
+      3,
+      3,
+      0,
+      3
+    ],
+    [
+      0,
+      120,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      6,
+      87,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      17,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      31
+    ]
+  ],
+  "macro_auc_ovr": 0.9964012538608535,
+  "config": {
+    "name": "resnet50__P-sampler_only",
+    "backbone": "resnet50",
+    "recipe": "P",
+    "aug": "A",
+    "sampler": true,
+    "class_weighted_loss": false,
+    "label_smoothing": 0.0,
+    "optimizer": "adam",
+    "lr": 0.001,
+    "weight_decay": 1e-05,
+    "scheduler": "onecycle",
+    "epochs": 25,
+    "finetune": "partial",
+    "head": "mlp",
+    "batch_size": 32,
+    "img_size": 224,
+    "select_metric": "val_macro_f1",
+    "pretrained": true,
+    "split": "cv_splits",
+    "notes": ""
+  },
+  "repeat": 0,
+  "fold": 3,
+  "seed": 3,
+  "best_epoch": 11,
+  "best_val_macro_f1": 0.9710300508488705,
+  "best_val_loss": 0.10223437315665636,
+  "train_minutes": 3.3630831480026244,
+  "n_train": 1217,
+  "n_val": 149,
+  "n_test": 354,
+  "gpu": "Tesla T4",
+  "split_meta": {
+    "phash_thr": 12,
+    "dhash_thr": 16,
+    "emb_model": "dinov2_vits14",
+    "emb_q": 0.999,
+    "emb_thr": 0.9694550037384033,
+    "combo": [
+      0.95,
+      20,
+      20
+    ],
+    "k": 5,
+    "repeats": 1,
+    "inner_val_folds": 8,
+    "seed": 42,
+    "n_groups": 1112
+  },
+  "n_trainable_params": 16016389,
+  "n_total_params": 24559685,
+  "robustness": {
+    "clean": 0.9463276836158192,
+    "dark_0.6": 0.9322033898305084,
+    "overexposed_1.4": 0.9180790960451978,
+    "low_contrast_0.6": 0.9293785310734464,
+    "hard_shadow_0.4": 0.9180790960451978,
+    "blur_sigma2": 0.9152542372881356,
+    "noise_sd0.05": 0.9209039548022598,
+    "jpeg_q20": 0.9519774011299436,
+    "occlusion_25pct": 0.7909604519774012,
+    "rotation_45": 0.9491525423728814
+  }
+}

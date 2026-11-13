@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the article and this software."
+title: "Peanut leaf disease classification with transfer learning under leakage-controlled cross-validation: code, data splits and results"
+type: software
+version: "1.0.0"
+date-released: "2026-11-14"
+license: MIT
+repository-code: "https://github.com/Kashif-Mahmood007/peanut-leaf-disease-cv"
+keywords:
+  - peanut
+  - groundnut
+  - plant disease
+  - deep learning
+  - transfer learning
+  - cross-validation
+  - data leakage
+authors:
+  - given-names: Kashif
+    family-names: Mahmood
+    affiliation: "Department of Software Engineering, University of Sargodha, Sargodha, Pakistan"
+  - given-names: Qaisar
+    family-names: Abbas
+    affiliation: "Faculty of Computer and Information Systems, Islamic University of Madinah, Madinah, Saudi Arabia"
+  - given-names: Ume
+    family-names: Habiba
+    affiliation: "Department of Software Engineering, University of Sargodha, Sargodha, Pakistan"
+  - given-names: Mahwish
+    family-names: Ilyas
+    affiliation: "Department of Computer Science, University of Rasul, Mandi Bahauddin, Pakistan"
+  - given-names: Turki
+    family-names: Alghamdi
+    affiliation: "Faculty of Computer and Information Systems, Islamic University of Madinah, Madinah, Saudi Arabia"
+  - given-names: Hani
+    family-names: Almoamari
+    affiliation: "Faculty of Computer and Information Systems, Islamic University of Madinah, Madinah, Saudi Arabia"
+  - given-names: Muhammad
+    family-names: Ramzan
+    affiliation: "Department of Software Engineering, University of Sargodha, Sargodha, Pakistan"
+references:
+  - type: dataset
+    title: "A novel groundnut leaf dataset for detection and classification of groundnut leaf diseases"
+    authors:
+      - family-names: Sasmal
+        given-names: B.
+    doi: "10.17632/x6x5jkk873.2"
+    version: "2"
+    publisher:
+      name: Mendeley Data

@@ -1,0 +1,22 @@
+{
+  "name": "resnet50__vanilla_TL",
+  "backbone": "resnet50",
+  "recipe": "P",
+  "aug": "none",
+  "sampler": false,
+  "class_weighted_loss": false,
+  "label_smoothing": 0.0,
+  "optimizer": "adam",
+  "lr": 0.001,
+  "weight_decay": 1e-05,
+  "scheduler": "none",
+  "epochs": 25,
+  "finetune": "partial",
+  "head": "linear",
+  "batch_size": 32,
+  "img_size": 224,
+  "select_metric": "val_macro_f1",
+  "pretrained": true,
+  "split": "cv_splits",
+  "notes": "plain transfer learning"
+}

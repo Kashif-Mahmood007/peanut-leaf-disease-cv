@@ -1,0 +1,22 @@
+{
+  "name": "resnet50__P-no_scheduler",
+  "backbone": "resnet50",
+  "recipe": "P",
+  "aug": "A",
+  "sampler": true,
+  "class_weighted_loss": true,
+  "label_smoothing": 0.0,
+  "optimizer": "adam",
+  "lr": 0.001,
+  "weight_decay": 1e-05,
+  "scheduler": "none",
+  "epochs": 25,
+  "finetune": "partial",
+  "head": "mlp",
+  "batch_size": 32,
+  "img_size": 224,
+  "select_metric": "val_macro_f1",
+  "pretrained": true,
+  "split": "cv_splits",
+  "notes": ""
+}

@@ -1,0 +1,17 @@
+{
+  "phash_thr": 12,
+  "dhash_thr": 16,
+  "emb_model": "dinov2_vits14",
+  "emb_q": 0.999,
+  "emb_thr": 0.9694550037384033,
+  "combo": [
+    0.95,
+    20,
+    20
+  ],
+  "k": 5,
+  "repeats": 1,
+  "inner_val_folds": 8,
+  "seed": 42,
+  "n_groups": 1112
+}

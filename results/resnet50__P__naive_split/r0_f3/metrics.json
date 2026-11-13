@@ -1,0 +1,117 @@
+{
+  "accuracy": 1.0,
+  "n_correct": 344,
+  "n": 344,
+  "balanced_accuracy": 1.0,
+  "macro_precision": 1.0,
+  "macro_recall": 1.0,
+  "macro_f1": 1.0,
+  "weighted_f1": 1.0,
+  "cohen_kappa": 1.0,
+  "per_class": {
+    "Alternaria leaf spot": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 90
+    },
+    "Healthy": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 120
+    },
+    "Leaf spot (early and late)": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 90
+    },
+    "Rosette": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 20
+    },
+    "Rust": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 24
+    }
+  },
+  "confusion_matrix": [
+    [
+      90,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      120,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      90,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      20,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      24
+    ]
+  ],
+  "macro_auc_ovr": 1.0,
+  "config": {
+    "name": "resnet50__P__naive_split",
+    "backbone": "resnet50",
+    "recipe": "P",
+    "aug": "A",
+    "sampler": true,
+    "class_weighted_loss": true,
+    "label_smoothing": 0.0,
+    "optimizer": "adam",
+    "lr": 0.001,
+    "weight_decay": 1e-05,
+    "scheduler": "onecycle",
+    "epochs": 25,
+    "finetune": "partial",
+    "head": "mlp",
+    "batch_size": 32,
+    "img_size": 224,
+    "select_metric": "val_macro_f1",
+    "pretrained": true,
+    "split": "naive",
+    "notes": ""
+  },
+  "repeat": 0,
+  "fold": 3,
+  "seed": 3,
+  "best_epoch": 20,
+  "best_val_macro_f1": 0.9922269294529379,
+  "best_val_loss": 0.025764422274606173,
+  "train_minutes": 3.3254138350486757,
+  "n_train": 1204,
+  "n_val": 172,
+  "n_test": 344,
+  "gpu": "Tesla T4",
+  "split_meta": "naive",
+  "n_trainable_params": 16016389,
+  "n_total_params": 24559685
+}

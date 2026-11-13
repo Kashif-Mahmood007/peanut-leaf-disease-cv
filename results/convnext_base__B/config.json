@@ -1,0 +1,22 @@
+{
+  "name": "convnext_base__B",
+  "backbone": "convnext_base",
+  "recipe": "B",
+  "aug": "B",
+  "sampler": false,
+  "class_weighted_loss": false,
+  "label_smoothing": 0.2,
+  "optimizer": "adamw",
+  "lr": 1e-05,
+  "weight_decay": 0.0001,
+  "scheduler": "cosine_wr",
+  "epochs": 25,
+  "finetune": "full",
+  "head": "linear",
+  "batch_size": 32,
+  "img_size": 224,
+  "select_metric": "val_macro_f1",
+  "pretrained": true,
+  "split": "cv_splits",
+  "notes": ""
+}

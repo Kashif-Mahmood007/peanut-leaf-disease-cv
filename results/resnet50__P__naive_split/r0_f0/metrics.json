@@ -1,0 +1,117 @@
+{
+  "accuracy": 0.9854651162790697,
+  "n_correct": 339,
+  "n": 344,
+  "balanced_accuracy": 0.9888888888888889,
+  "macro_precision": 0.9890989988876531,
+  "macro_recall": 0.9888888888888889,
+  "macro_f1": 0.9888858016115588,
+  "weighted_f1": 0.9854610776895391,
+  "cohen_kappa": 0.9801751959428308,
+  "per_class": {
+    "Alternaria leaf spot": {
+      "precision": 0.9885057471264368,
+      "recall": 0.9555555555555556,
+      "f1": 0.9717514124293786,
+      "support": 90
+    },
+    "Healthy": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 120
+    },
+    "Leaf spot (early and late)": {
+      "precision": 0.956989247311828,
+      "recall": 0.9888888888888889,
+      "f1": 0.9726775956284153,
+      "support": 90
+    },
+    "Rosette": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 20
+    },
+    "Rust": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 24
+    }
+  },
+  "confusion_matrix": [
+    [
+      86,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      120,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      89,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      20,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      24
+    ]
+  ],
+  "macro_auc_ovr": 0.9985564304461942,
+  "config": {
+    "name": "resnet50__P__naive_split",
+    "backbone": "resnet50",
+    "recipe": "P",
+    "aug": "A",
+    "sampler": true,
+    "class_weighted_loss": true,
+    "label_smoothing": 0.0,
+    "optimizer": "adam",
+    "lr": 0.001,
+    "weight_decay": 1e-05,
+    "scheduler": "onecycle",
+    "epochs": 25,
+    "finetune": "partial",
+    "head": "mlp",
+    "batch_size": 32,
+    "img_size": 224,
+    "select_metric": "val_macro_f1",
+    "pretrained": true,
+    "split": "naive",
+    "notes": ""
+  },
+  "repeat": 0,
+  "fold": 0,
+  "seed": 0,
+  "best_epoch": 24,
+  "best_val_macro_f1": 1.0,
+  "best_val_loss": 0.005445732756756073,
+  "train_minutes": 3.3604990005493165,
+  "n_train": 1204,
+  "n_val": 172,
+  "n_test": 344,
+  "gpu": "Tesla T4",
+  "split_meta": "naive",
+  "n_trainable_params": 16016389,
+  "n_total_params": 24559685
+}

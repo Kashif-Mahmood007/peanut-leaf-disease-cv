@@ -1,0 +1,132 @@
+{
+  "clean": {
+    "accuracy": 0.9918032786885246,
+    "n_correct": 363,
+    "n": 366,
+    "macro_f1": 0.9842045052075262,
+    "per_class_recall": {
+      "Alternaria leaf spot": 1.0,
+      "Healthy": 0.9931506849315068,
+      "Leaf spot (early and late)": 1.0,
+      "Rosette": 0.8888888888888888,
+      "Rust": 1.0
+    }
+  },
+  "dark_0.6": {
+    "accuracy": 0.9836065573770492,
+    "n_correct": 360,
+    "n": 366,
+    "macro_f1": 0.9774385105494868,
+    "per_class_recall": {
+      "Alternaria leaf spot": 0.9647058823529412,
+      "Healthy": 0.9931506849315068,
+      "Leaf spot (early and late)": 1.0,
+      "Rosette": 0.8888888888888888,
+      "Rust": 1.0
+    }
+  },
+  "overexposed_1.4": {
+    "accuracy": 0.9781420765027322,
+    "n_correct": 358,
+    "n": 366,
+    "macro_f1": 0.9741060060387792,
+    "per_class_recall": {
+      "Alternaria leaf spot": 0.9411764705882353,
+      "Healthy": 0.9931506849315068,
+      "Leaf spot (early and late)": 1.0,
+      "Rosette": 0.8888888888888888,
+      "Rust": 1.0
+    }
+  },
+  "low_contrast_0.6": {
+    "accuracy": 0.9808743169398907,
+    "n_correct": 359,
+    "n": 366,
+    "macro_f1": 0.9760206418563598,
+    "per_class_recall": {
+      "Alternaria leaf spot": 0.9529411764705882,
+      "Healthy": 0.9931506849315068,
+      "Leaf spot (early and late)": 1.0,
+      "Rosette": 0.8888888888888888,
+      "Rust": 1.0
+    }
+  },
+  "hard_shadow_0.4": {
+    "accuracy": 0.9590163934426229,
+    "n_correct": 351,
+    "n": 366,
+    "macro_f1": 0.9528077865827648,
+    "per_class_recall": {
+      "Alternaria leaf spot": 0.8941176470588236,
+      "Healthy": 0.9863013698630136,
+      "Leaf spot (early and late)": 0.978021978021978,
+      "Rosette": 0.8888888888888888,
+      "Rust": 1.0
+    }
+  },
+  "blur_sigma2": {
+    "accuracy": 0.9808743169398907,
+    "n_correct": 359,
+    "n": 366,
+    "macro_f1": 0.97617152968633,
+    "per_class_recall": {
+      "Alternaria leaf spot": 0.9764705882352941,
+      "Healthy": 0.9863013698630136,
+      "Leaf spot (early and late)": 0.989010989010989,
+      "Rosette": 0.8888888888888888,
+      "Rust": 1.0
+    }
+  },
+  "noise_sd0.05": {
+    "accuracy": 0.994535519125683,
+    "n_correct": 364,
+    "n": 366,
+    "macro_f1": 0.9866125607613627,
+    "per_class_recall": {
+      "Alternaria leaf spot": 0.9882352941176471,
+      "Healthy": 1.0,
+      "Leaf spot (early and late)": 1.0,
+      "Rosette": 0.9444444444444444,
+      "Rust": 1.0
+    }
+  },
+  "jpeg_q20": {
+    "accuracy": 0.9863387978142076,
+    "n_correct": 361,
+    "n": 366,
+    "macro_f1": 0.9849107032668677,
+    "per_class_recall": {
+      "Alternaria leaf spot": 0.9647058823529412,
+      "Healthy": 0.9931506849315068,
+      "Leaf spot (early and late)": 1.0,
+      "Rosette": 0.9444444444444444,
+      "Rust": 1.0
+    }
+  },
+  "occlusion_25pct": {
+    "accuracy": 0.9262295081967213,
+    "n_correct": 339,
+    "n": 366,
+    "macro_f1": 0.9346294016749066,
+    "per_class_recall": {
+      "Alternaria leaf spot": 0.8470588235294118,
+      "Healthy": 0.9863013698630136,
+      "Leaf spot (early and late)": 0.8901098901098901,
+      "Rosette": 0.8888888888888888,
+      "Rust": 1.0
+    }
+  },
+  "rotation_45": {
+    "accuracy": 0.9918032786885246,
+    "n_correct": 363,
+    "n": 366,
+    "macro_f1": 0.9894672565158661,
+    "per_class_recall": {
+      "Alternaria leaf spot": 0.9882352941176471,
+      "Healthy": 1.0,
+      "Leaf spot (early and late)": 0.989010989010989,
+      "Rosette": 0.9444444444444444,
+      "Rust": 1.0
+    }
+  }
+}

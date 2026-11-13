@@ -1,0 +1,288 @@
+{
+  "dataset": {
+    "doi": "10.17632/x6x5jkk873.2",
+    "url": "https://data.mendeley.com/datasets/x6x5jkk873/2",
+    "version": 2,
+    "raw_zip_sha256": "314dc4152782e9ee34f1a13f1aaa08c0b9ebb67f48023e609d2ecbc667da831b",
+    "cache_zip_sha256": "1640fbf7fa08894cec38b818cd8af4a82a9f6a9a9b17df884765c523060c089d"
+  },
+  "completeness": {
+    "counts": {
+      "Alternaria leaf spot": 450,
+      "Healthy": 600,
+      "Leaf spot (early and late)": 450,
+      "Rosette": 100,
+      "Rust": 120,
+      "Total": 1720
+    },
+    "published": {
+      "Alternaria leaf spot": 450,
+      "Healthy": 600,
+      "Leaf spot (early and late)": 450,
+      "Rosette": 100,
+      "Rust": 120
+    },
+    "matches_published": true,
+    "unreadable": 0
+  },
+  "acquisition_metadata": {
+    "resolutions": {
+      "4624x3472": 1720
+    },
+    "camera": {
+      "unknown": 1720
+    },
+    "orientation_tags": {
+      "1": 1720
+    },
+    "images_with_capture_date": 0,
+    "capture_date_first": null,
+    "capture_date_last": null,
+    "distinct_capture_days": 0,
+    "capture_hour_range": null,
+    "flash_values": {
+      "": 1720
+    }
+  },
+  "duplicates": {
+    "rule": "identical MD5, or pHash<=12 and dHash<=16, or same class and dinov2_vits14 cosine>=0.9694550037384033, or same class and cosine>=0.95 and pHash<=20 and dHash<=20",
+    "embedding_model": "dinov2_vits14",
+    "embedding_quantile": 0.999,
+    "embedding_threshold": 0.9694550037384033,
+    "exact_duplicate_pairs": 26,
+    "pairs_total": 681,
+    "pairs_found_by_hash_rule": 516,
+    "pairs_added_by_dinov2_threshold": 96,
+    "pairs_added_by_combined_rule": 69,
+    "cross_class_pairs": 2,
+    "images_in_a_duplicate_group": 1075,
+    "groups_total": 1112,
+    "largest_group": 38,
+    "group_size_counts": {
+      "1": 645,
+      "2": 404,
+      "3": 48,
+      "4": 6,
+      "5": 1,
+      "6": 1,
+      "7": 4,
+      "8": 1,
+      "14": 1,
+      "38": 1
+    }
+  },
+  "duplicates_hash_rule_only": {
+    "exact_duplicate_pairs": 26,
+    "near_duplicate_pairs": 516,
+    "cross_class_pairs": 2,
+    "images_in_a_duplicate_group": 903,
+    "groups_total": 1245,
+    "largest_group": 4,
+    "thresholds": {
+      "phash": 12,
+      "dhash": 16
+    }
+  },
+  "embedding_threshold_sensitivity": [
+    {
+      "quantile": 0.95,
+      "cosine threshold": 0.9603598117828369,
+      "pairs": 1450,
+      "images grouped": 1222,
+      "groups": 863,
+      "largest group": 328
+    },
+    {
+      "quantile": 0.98,
+      "cosine threshold": 0.9629996418952942,
+      "pairs": 1023,
+      "images grouped": 1170,
+      "groups": 953,
+      "largest group": 249
+    },
+    {
+      "quantile": 0.99,
+      "cosine threshold": 0.964324414730072,
+      "pairs": 892,
+      "images grouped": 1144,
+      "groups": 1000,
+      "largest group": 183
+    },
+    {
+      "quantile": 0.995,
+      "cosine threshold": 0.9651194214820862,
+      "pairs": 848,
+      "images grouped": 1135,
+      "groups": 1017,
+      "largest group": 168
+    },
+    {
+      "quantile": 0.999,
+      "cosine threshold": 0.9694550037384033,
+      "pairs": 681,
+      "images grouped": 1075,
+      "groups": 1112,
+      "largest group": 38
+    }
+  ],
+  "duplicate_threshold_sensitivity": [
+    {
+      "pHash<=": 4,
+      "dHash<=": 6,
+      "pairs": 233,
+      "images grouped": 420,
+      "groups": 1501,
+      "largest group": 4,
+      "cross-class pairs": 0
+    },
+    {
+      "pHash<=": 6,
+      "dHash<=": 8,
+      "pairs": 328,
+      "images grouped": 589,
+      "groups": 1413,
+      "largest group": 4,
+      "cross-class pairs": 0
+    },
+    {
+      "pHash<=": 8,
+      "dHash<=": 10,
+      "pairs": 403,
+      "images grouped": 730,
+      "groups": 1341,
+      "largest group": 4,
+      "cross-class pairs": 0
+    },
+    {
+      "pHash<=": 10,
+      "dHash<=": 12,
+      "pairs": 466,
+      "images grouped": 833,
+      "groups": 1287,
+      "largest group": 4,
+      "cross-class pairs": 0
+    },
+    {
+      "pHash<=": 12,
+      "dHash<=": 14,
+      "pairs": 511,
+      "images grouped": 894,
+      "groups": 1250,
+      "largest group": 4,
+      "cross-class pairs": 1
+    },
+    {
+      "pHash<=": 12,
+      "dHash<=": 16,
+      "pairs": 516,
+      "images grouped": 903,
+      "groups": 1245,
+      "largest group": 4,
+      "cross-class pairs": 2
+    },
+    {
+      "pHash<=": 12,
+      "dHash<=": 20,
+      "pairs": 525,
+      "images grouped": 918,
+      "groups": 1236,
+      "largest group": 4,
+      "cross-class pairs": 5
+    },
+    {
+      "pHash<=": 12,
+      "dHash<=": 24,
+      "pairs": 532,
+      "images grouped": 925,
+      "groups": 1229,
+      "largest group": 4,
+      "cross-class pairs": 9
+    },
+    {
+      "pHash<=": 14,
+      "dHash<=": 16,
+      "pairs": 549,
+      "images grouped": 946,
+      "groups": 1219,
+      "largest group": 7,
+      "cross-class pairs": 6
+    },
+    {
+      "pHash<=": 16,
+      "dHash<=": 18,
+      "pairs": 635,
+      "images grouped": 1016,
+      "groups": 1151,
+      "largest group": 15,
+      "cross-class pairs": 39
+    }
+  ],
+  "leakage_check": {
+    "test_images_checked": 1720,
+    "test_trainval_pairs_meeting_the_grouping_rule": 0,
+    "nearest_cosine_quantiles": {
+      "0.5": 0.9490727186203003,
+      "0.95": 0.966226801276207,
+      "0.99": 0.9687371093034745,
+      "1.0": 0.9698953628540039
+    },
+    "nearest_phash_quantiles": {
+      "0.0": 10.0,
+      "0.01": 12.0,
+      "0.05": 14.0,
+      "0.5": 18.0
+    },
+    "rule": "identical MD5, or pHash<=12 and dHash<=16, or same class and dinov2_vits14 cosine>=0.9694550037384033, or same class and cosine>=0.95 and pHash<=20 and dHash<=20"
+  },
+  "paper_split_audit": null,
+  "cv": {
+    "k": 5,
+    "repeats": 1,
+    "inner_val_folds": 8,
+    "seed": 42,
+    "mean_images_per_fold": {
+      "Alternaria leaf spot": {
+        "train": 318.0,
+        "val": 42.0,
+        "test": 90.0
+      },
+      "Healthy": {
+        "train": 429.8,
+        "val": 50.2,
+        "test": 120.0
+      },
+      "Leaf spot (early and late)": {
+        "train": 321.2,
+        "val": 38.8,
+        "test": 90.0
+      },
+      "Rosette": {
+        "train": 71.0,
+        "val": 9.0,
+        "test": 20.0
+      },
+      "Rust": {
+        "train": 85.6,
+        "val": 10.4,
+        "test": 24.0
+      },
+      "Total": {
+        "train": 1225.6,
+        "val": 150.4,
+        "test": 344.0
+      }
+    }
+  },
+  "environment": {
+    "notebook": "01_Data_Preparation",
+    "run_at": "2026-10-31T09:02:17",
+    "python": "3.13.16",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "pillow": "11.3.0",
+    "imagehash": "4.3.2",
+    "scikit-learn": "1.6.1",
+    "matplotlib": "3.10.0",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39"
+  }
+}

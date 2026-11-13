@@ -1,0 +1,3 @@
+Model,Group-aware acc. (%),Naive acc. (%),Inflation (pts) [95% CI],McNemar p,Naive: images with near-duplicate in training,Naive: images without
+"ResNet-50, recipe P",97.91 (1684/1720),99.13 (1705/1720),"+1.22 [+0.64, +1.86]",0.0001037,905/910 = 99.45%,800/810 = 98.77%
+"ConvNeXt-Base, recipe B",99.30 (1708/1720),99.36 (1709/1720),"+0.06 [-0.29, +0.41]",1,910/910 = 100.00%,799/810 = 98.64%
