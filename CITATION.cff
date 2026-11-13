@@ -3,9 +3,11 @@ message: "If you use this code or these results, please cite the article and thi
 title: "Peanut leaf disease classification with transfer learning under leakage-controlled cross-validation: code, data splits and results"
 type: software
 version: "1.0.0"
+doi: "10.5281/zenodo.24208050"
 date-released: "2026-11-14"
 license: MIT
 repository-code: "https://github.com/Kashif-Mahmood007/peanut-leaf-disease-cv"
+url: "https://huggingface.co/Kashif-Mahmood007/peanut-leaf-disease-classifiers"
 keywords:
   - peanut
   - groundnut

@@ -1,5 +1,7 @@
 # Peanut leaf disease classification with transfer learning under leakage-controlled cross-validation
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24208050.svg)](https://doi.org/10.5281/zenodo.24208050)
+
 Code, data splits and results for the study
 
 > Mahmood, K., Abbas, Q., Habiba, U., Ilyas, M., Alghamdi, T., Almoamari, H. & Ramzan, M.
@@ -10,7 +12,7 @@ Code, data splits and results for the study
 |---|---|
 | **Trained models** | Hugging Face: [Kashif-Mahmood007/peanut-leaf-disease-classifiers](https://huggingface.co/Kashif-Mahmood007/peanut-leaf-disease-classifiers) |
 | **Dataset** | Sasmal *et al.*, groundnut leaf dataset, Mendeley Data, version 2: [https://doi.org/10.17632/x6x5jkk873.2](https://doi.org/10.17632/x6x5jkk873.2) (CC BY 4.0) |
-| **Archived version of this repository** | Zenodo (DOI added on release) |
+| **Archived version of this repository** | Zenodo, v1.0.0: [https://doi.org/10.5281/zenodo.24208050](https://doi.org/10.5281/zenodo.24208050) |
 
 ## Overview
 
@@ -108,8 +110,8 @@ by its authors; please cite it when using the images.
 
 ## Citation
 
-Please cite the article (details will be added after publication) and the archived version of this repository
-(see `CITATION.cff`), as well as the dataset:
+Please cite the article (details will be added after publication), the archived version of this repository
+(https://doi.org/10.5281/zenodo.24208050; see also `CITATION.cff`) and the dataset:
 
 Sasmal, B. *et al.* A novel groundnut leaf dataset for detection and classification of groundnut leaf diseases.
 *Data Brief* **55**, 110763 (2024).
